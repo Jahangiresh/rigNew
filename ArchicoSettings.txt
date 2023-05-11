@@ -1,0 +1,20 @@
+Settings:
+	whatsappNumber
+	userCount
+	certificateCount
+	componyCount
+	workerCount
+	addresLink
+	addres
+	email
+	tel
+	facebookUrl
+	linkedinUrl
+	youtubeUrl
+	instagramUrl
+	about
+	checkCertificatImage
+	aboutImage
+	logo-colored
+	logo-white
+	catalog

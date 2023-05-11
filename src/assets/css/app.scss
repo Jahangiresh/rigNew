@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* image galery  */
+@import "~react-image-gallery/styles/css/image-gallery.css";
+.image-gallery-fullscreen-button {
+  @apply hidden;
+}
+.image-gallery-play-button {
+  @apply hidden;
+}
+.image-gallery-left-nav {
+  @apply hidden;
+}
+.image-gallery-right-nav {
+  @apply hidden;
+}
+.image-gallery-thumbnails-container {
+  @apply flex justify-between;
+}
+.image-gallery {
+  @apply border border-[#e3e3e3] shadow-md;
+}
+/* image galery  */
+
+* {
+  @apply p-0 m-0 box-border;
+  font-family: "Roboto", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.container {
+  @apply lg:w-[1200px] max-md:px-5 max-sm:px-4  m-auto;
+}
+
+/* colors */
+.bg__blue {
+  @apply bg-[#003049];
+}
+.bg__yellow {
+  @apply bg-[#C9B38C];
+}
+.text__yellow {
+  @apply text-[#C9B38C];
+}
+.text__black {
+  @apply text-[#191919];
+}
+
+/* buttons */
+
+.btn__main {
+  @apply bg__yellow text-white font-medium text-base py-2 px-6;
+}
+.btn__secondary {
+  @apply border border-[#C9B38C] text-[#C9B38C] font-medium text-base py-2 px-6;
+}
+.text__body {
+  @apply font-normal text-base text-white;
+}
+.text__header {
+  @apply text-white font-bold;
+}
+/* inputs */
+.my__input {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+}
+.my__input:focus {
+  @apply ring-0 border border-[#003049];
+}
